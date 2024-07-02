@@ -8,17 +8,17 @@
     <6>now for member this time name of admin will be asked!
     <7>*All the mindmap execution will be done through file handling"""
 #input of member,student,teacher role
-S_name=['Aman','Aditya','Rishabh','Aadarsh','Vivek']
-pswwd=open("C:\\Users\\DELL\\Desktop\\agnes\\pswd.txt","r")
+S_name=['Aan','Adiya','Risha','Aarsh','Vek']
+pswwd=open("pswd.txt","r")
 p_read=pswwd.readline()
 a=input("Enter Your Role .1>M)Membeer.2>S)Student>.3>T)Teacher\n")
 name=input("Enter Your Name")
 c=0
-q=open("C:\\Users\\DELL\\Desktop\\agnes\\lol.txt",'r')
+q=open("lol.txt",'r')
 q_read=q.read()
-i=open("C:\\Users\\DELL\\Desktop\\agnes\\imp.txt","r")
+i=open("imp.txt","r")
 i_read=i.read()
-ui=("C:\\Users\\DELL\\Desktop\\agnes\\dat.txt","a")
+ui=("dat.txt","a")
 if(a=='S'):
     for i in range(0,len(S_name)):
         if(name==S_name[i]):
@@ -56,4 +56,4 @@ elif a=='M'or a=='T':
             print("Server is Busy please Try again Later")
             print(p_read)
 elif a=='OTTE SIR':
-    print("Welcome Akshat Bhai")
+    print("Welcome Akhat Bhai")
